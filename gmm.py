@@ -45,7 +45,7 @@ class GMM(object):
         self.N, self.D = trainMat.shape
         self.GMM_EM()
         
-    def GMM_EM(self, trainMat):
+    def GMM_EM(self):
         """Perform EM algorithm for fitting the GMM model
         Step 1: Pre-process data;
         Step 2: Initialize parameters;
